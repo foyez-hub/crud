@@ -95,7 +95,7 @@ if (isset($_POST['delete'])) {
                         <input type="text" name="id1" value=""> <br>
                         <input type="submit" name="read" value="read"> </br>
 
-                        <h2>Your INFO</h2>
+                        <h2>Your information</h2>
                         <h2>ID</h2>
                         <input type="text" name="id" value="<?php if (isset($inforead->id))  echo $inforead->id ?>"> <br>
 
